@@ -1,0 +1,17 @@
+*{
+  box-sizing: border-box;
+}
+
+.App{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.App-body{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.App-header{
+  text-align: center;
+}
